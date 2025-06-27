@@ -16,19 +16,19 @@ menuClose.addEventListener('click', () => {
 // managing link redirections
 
 document.getElementById("logo").addEventListener("click", () => {
-    window.location.href = `${window.location.origin}/homepage/home.html`;
+    window.location.href = `${window.location.origin}home.html`;
 });
 
 document.getElementById("nav-shop").addEventListener("click", () => {
-    window.location.href = `${window.location.origin}/plp/plp.html`;
+    window.location.href = `${window.location.origin}plp.html`;
 });
 
 document.getElementById("ntab-about").addEventListener("click", () => {
-    window.location.href = `${window.location.origin}/About/about.html`;
+    window.location.href = `${window.location.origin}about.html`;
 });
 
 document.getElementById("login").addEventListener("click", () => {
-    window.location.href = `${window.location.origin}/login/login.html`;
+    window.location.href = `${window.location.origin}login.html`;
 });
 
 // welcome on login tab
