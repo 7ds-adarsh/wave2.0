@@ -16,5 +16,5 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
     localStorage.setItem("loggedInUser", storedUser.username);
 
     alert(`Welcome back, ${storedUser.username}!`);
-    window.location.href = "../homepage/home.html"; // or homepage
+    window.location.href = "home.html"; // or homepage
 });
