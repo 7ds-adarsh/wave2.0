@@ -16,5 +16,5 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
     localStorage.setItem("loggedInUser", storedUser.username);
 
     alert(`Welcome back, ${storedUser.username}!`);
-    window.location.href = "/home.html"; // or homepage
+    window.location.href = "https://7ds-adarsh.github.io/wave2.0/home.html";
 });
