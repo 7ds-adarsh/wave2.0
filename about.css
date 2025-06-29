@@ -1,0 +1,107 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    box-shadow: 0px -10px 10px rgb(196, 190, 190);
+}
+
+.nv {
+    height: 10vh;
+    align-items: center;
+}
+
+.abt-header-text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 5%;
+    text-align: left;
+    align-items: flex-start;
+    margin-left: 5%;
+}
+
+.abt-header-text svg {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 35%;
+    font-size: xx-large;
+}
+
+.abt-header-text h1 {
+    font-size: xx-large;
+    position: relative;
+    top: -60px;
+    left: 8px;
+    margin-left: 35%;
+}
+
+.abt-header-text p {
+    font-size: large;
+    text-align: center;
+    position: relative;
+    top: -60px;
+    left: 8px;
+    margin-left: 35%;
+    margin-bottom: 0;
+}
+
+.btns {
+    margin-left: 35%;
+    margin-top: 0;
+}
+
+.u-icon {
+    position: absolute;
+    top: 0px;
+}
+
+@keyframes waveEffect {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(-4px);
+    }
+
+    50% {
+        transform: translateY(4px);
+    }
+
+    75% {
+        transform: translateY(-2px);
+    }
+}
+
+.animate-wavy {
+    display: inline-block;
+    animation: waveEffect 2.5s ease-in-out infinite;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    transform: translatey(-100%);
+    transition: transform 2s ease;
+}
+
+/* for hovering on bubble tab navs */
+
+.tabt-hover:hover {
+    transform: scale(1.5);
+}

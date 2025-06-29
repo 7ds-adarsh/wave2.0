@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nv {
+    height: 10vh;
+    align-items: center;
+}
+
+.u-icon {
+    position: absolute;
+    top: 0px;
+}
