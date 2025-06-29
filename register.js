@@ -15,5 +15,5 @@ document.getElementById("registerForm").addEventListener("submit", function (e) 
     localStorage.setItem("waveUser", JSON.stringify(user));
 
     alert("Registration successful! You can now log in.");
-    window.location.href = "/login.html"; // Redirect to login
+    window.location.href = "https://7ds-adarsh.github.io/wave2.0/login.html";
 });
