@@ -31,6 +31,10 @@ document.getElementById("login").addEventListener("click", () => {
     window.location.href = "https://7ds-adarsh.github.io/wave2.0/login.html";
 });
 
+document.getElementsByClassName("pd").addEventListener("click", () => {
+    window.location.href = "https://7ds-adarsh.github.io/wave2.0/pdp.html";
+});
+
 // welcome on login tab
 
 const storedUSER = JSON.parse(localStorage.getItem('waveUser'));
